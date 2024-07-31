@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+          <option value="FraudDetection" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.xerial.snappy:snappy-java:1.1.8.4" />
+          <option value="com.jayway.jsonpath:json-path:2.7.0" />
+          <option value="ch.qos.logback:logback-classic:1.2.11" />
+          <option value="net.minidev:json-smart:2.4.8" />
+          <option value="ch.qos.logback:logback-core:1.2.11" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-core:9.0.71" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-websocket:9.0.71" />
+          <option value="org.springframework.boot:spring-boot-autoconfigure:2.7.8" />
+          <option value="org.springframework.boot:spring-boot:2.7.8" />
+          <option value="org.springframework:spring-core:5.3.25" />
+          <option value="org.springframework:spring-expression:5.3.25" />
+          <option value="org.springframework:spring-web:5.3.25" />
+          <option value="org.springframework:spring-webmvc:5.3.25" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="com.fasterxml.woodstox:woodstox-core:6.2.1" />
+          <option value="org.apache.httpcomponents:httpclient:4.5.3" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Will update to latest spring later" />
+          <option value="Will update to latest spring later" />
+          <option value="Will update to latest spring later" />
+          <option value="Will update to latest spring later" />
+          <option value="Will update to latest spring later" />
+          <option value="Will update to latest spring later" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
