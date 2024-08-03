@@ -16,10 +16,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
     <modules>
         <module>fraud-detection-service</module>
         <module>payment-gateway-service</module>
+        <module>eureka-service</module>
     </modules>
 
     <dependencies>
@@ -61,8 +61,6 @@
             <version>2.0.9</version>
             <scope>test</scope>
         </dependency>
-
-
 
         <!-- Security-->
         <dependency>
@@ -157,6 +155,20 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>4.1.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <version>4.1.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -171,7 +183,9 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
 </project>
