@@ -29,7 +29,6 @@ public class RedisConfig {
         rules.put("restrictedMerchant", "MerchantX");
         rules.put("businessStartHour", "9");
         rules.put("businessEndHour", "17");
-
         ruleCacheService.loadRulesIntoCache(rules);
     }
 
